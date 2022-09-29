@@ -1,16 +1,32 @@
 body{
     font-family: 'Montserrat', sans-serif;
-    background-color: yellow;
+    background-color: white;
 }
 h1{
     font-family: 'Abril Fatface';
 }
+/*container*/
 header{
     display: flex;
     flex-flow: row nowrap;
     align-items: center;
     justify-content: space-around;
 }
+/**/
 .logo{
     width: 10%;
+}
+img.pcrose{
+    width: 70%;
+    margin-left: 15%;
+}
+div.contact a{
+    color: grey;
+    text-decoration: none;
+    margin-right: 1em; 
+}
+main{
+    text-align: justify;
+    width: 70%;
+    margin-left: 15%;
 }
