@@ -21,12 +21,15 @@ div.nav a:hover{
 h1{
     font-family: 'Abril Fatface';
     margin-left: 15%;
+    color: #d05270;
 
 }
 
 p,h2,H3{
 font-family: 'Montserrat';
 margin-left: 15%;
+color: #424242;
+
 }
 
 
