@@ -1,19 +1,38 @@
+
+
+/*FLEX*/
+
 .flex{
     display: flex;
     flex-wrap: wrap;
     align-items: center;
     justify-content: space-around;
+    margin: auto;
 }
+
+/*BODY*/
+
+div{
+    margin-left: 15%;
+    margin-right: 15%;
+    font-family: 'Montserrat', sans-serif;
+}
+
+/*CORPS*/
 
 h1{
     font-family: 'Abril Fatface';
     font-size: 30px;
 }
 
-.image2, .image3{
+.logo{
+justify-content: flex-end;
+}
+
+.image3, .image4{
     height: 500px;
-    padding-left: 25%;
-    padding-right: 25%;
+    margin: auto;
+    padding-left: 10%;
 }
 
 #italique, #italique2{
@@ -21,6 +40,17 @@ h1{
 
 }
 
+/*FOOTER*/
+
 .social{
+    justify-content: center;
+    display: flex;
+    flex-direction: row;
+    gap: 15px;
+    height: 60px;
+}
+
+#image5{
+    height: 100px;
     
 }
