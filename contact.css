@@ -1,14 +1,16 @@
-h1{
-    
-}
-header{
-    display: flex;
+header {
+    font-family: 'Montserrat';
 
-    flex-flow: row nowrap;
-    align-items: center;
-    justify-content: space-around;
+}
+.image {
+    width: 300px;
+    height: 300px;
 }
 
+.logo {
+    width: 250px;
+    height: 250px;
+}
 h1{
     font-family: 'Abril Fatface';
 
@@ -19,7 +21,19 @@ font-family: 'Montserrat';
 
 }
 
-#contactez-nous {
 
-    margin: auto;
+.flexbox1 {
+    display: flex;
+    flex-direction: row;
+}
+
+.flexbox2 {
+    display: flex;
+    flex-direction: column; 
+}
+
+.flexbox3 { 
+    display: flex;
+
+
 }
