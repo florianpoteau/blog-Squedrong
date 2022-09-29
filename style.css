@@ -7,7 +7,24 @@
     width: 250px;
     height: 250px;
 }
+<<<<<<< HEAD
 p,h2 {
 font-family: 'Montserrat', sans-serif;
     
 }
+=======
+h1{
+    font-family: 'Abril Fatface';
+
+}
+
+p,h2,H3{
+font-family: 'Montserrat';
+
+}
+.pcrose {
+
+    width: 300px;
+    height: 225px;
+}
+>>>>>>> 70282531a8140788eac70e617a9dd076cca3962f
