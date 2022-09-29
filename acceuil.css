@@ -27,7 +27,21 @@ div.contact a:hover{
     color: #6655b1;
     font-weight: bold;
 }
-
+.container{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    gap: 1em;
+    margin-left: 15%;
+    width: 70%;
+}
+div.pc{
+    width: 49%;
+    box-sizing: border-box;
+}
+img{
+    width: 100%;
+}
 /* taille image et couleur texte */
 h1{
     font-family: 'Abril Fatface';
