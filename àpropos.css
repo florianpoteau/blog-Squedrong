@@ -18,11 +18,23 @@ div{
     font-family: 'Montserrat', sans-serif;
 }
 
+nav a{
+    color: grey;
+    text-decoration: none; 
+    margin-right: 1em;
+}
+
+nav a:hover{
+    color: #6655b1;
+    font-weight: bold;
+}
+
 /*CORPS*/
 
 h1{
     font-family: 'Abril Fatface';
     font-size: 30px;
+    color: #d05270;
 }
 
 .logo{
@@ -30,14 +42,21 @@ justify-content: flex-end;
 }
 
 .image3, .image4{
-    height: 500px;
-    margin: auto;
-    padding-left: 10%;
+    height: 27em;
+    width: 100%;
+}
+
+.img1{
+    width: 70%;
 }
 
 #italique, #italique2{
     text-align: center;
 
+}
+
+ol{
+    padding-bottom: 50px;
 }
 
 /*FOOTER*/
@@ -48,9 +67,12 @@ justify-content: flex-end;
     flex-direction: row;
     gap: 15px;
     height: 60px;
+    flex-wrap: wrap;
 }
 
 #image5{
     height: 100px;
-    
+    position: fixed;
+    bottom: 0;
+    right: 0;
 }
