@@ -14,3 +14,17 @@ font-family: 'Montserrat', sans-serif;
 header{
     display: flex;
 }
+h1{
+    font-family: 'Abril Fatface';
+
+}
+
+p,h2,H3{
+font-family: 'Montserrat';
+
+}
+.pcrose {
+
+    width: 300px;
+    height: 225px;
+}
