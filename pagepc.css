@@ -5,3 +5,12 @@ body{
 h1{
     font-family: 'Abril Fatface';
 }
+header{
+    display: flex;
+    flex-flow: row nowrap;
+    align-items: center;
+    justify-content: space-around;
+}
+.logo{
+    width: 10%;
+}
