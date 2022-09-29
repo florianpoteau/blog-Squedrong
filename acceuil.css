@@ -21,6 +21,11 @@ gap: 20px;
 div.contact a{
     color: grey;
     text-decoration: none; 
+    margin-right: 1em; 
+}
+div.contact a:hover{
+    color: #6655b1;
+    font-weight: bold;
 }
 
 /* taille image et couleur texte */
