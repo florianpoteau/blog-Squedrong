@@ -1,1 +1,69 @@
-{\rtf1}
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">                                    
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Montserrat&display=swap" rel="stylesheet">
+    <title>Blog</title>
+
+</head>
+<body>
+
+    <header>
+            <img alt="logo" src="img/logo.png" class="logo"/>
+            <a href="blog.html">BLOG</a>
+            <a href="cv.html">CV</a>
+            <a href="apropos.html">A PROPOS</a>
+            <a href="mailto:contact@squedrong.com">CONTACT</a>
+    </header>
+
+    <div>
+        <div>
+            
+            <img alt="illustration" src="img/illustration.png" class="image">
+            
+
+            <div class="contactez-nous">
+                <h1>Contactez-nous</h1>
+                <p>Un problème, une question, envie de nous envoyer un message ? N’hésitez pas à utiliser ce formulaire pour prendre contact avec nous !</p>
+                <form action="/page-traitement-donnees" method="post">
+                <div>
+                <label for="nom">Votre nom</label>
+                <input type="text" id="nom" name="nom" placeholder="Martin" required>
+                </div>
+                <div>
+                <label for="email">Votre e-mail</label>
+                <input type="email" id="email" name="email" placeholder="monadresse@mail.com" required>
+                </div>
+                <div>
+                <label for="sujet">Quel est le sujet de votre message ?</label>
+                <select name="sujet" id="sujet" required>
+                <option value="" disabled selected hidden>Choisissez le sujet de votre message</option>
+                <option value="probleme-compte">Problème avec mon compte</option>
+                <option value="question-produit">Question à propos d’un produit</option>
+                <option value="suivi-commande">Suivi de ma commande</option>
+                <option value="autre">Autre...</option>
+                </select>
+                </div>
+                <div>
+                <label for="message">Votre message</label>
+                <textarea id="message" name="message" placeholder="Bonjour, je vous contacte car...." required></textarea>
+                </div>
+                <div>
+                <button type="submit">Envoyer mon message</button>
+                </div>
+                </form>
+                </div>
+
+        </div>
+    </div>
+
+
+
+</body>
+</html>
