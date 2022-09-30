@@ -24,10 +24,12 @@ div.nav a:hover{
 h1{
     font-family: 'Abril Fatface';
     color: #d05270;
-
 }
-
-p,h2,H3{
+.rose{
+    color: #d05270;
+    font-size: 2em;
+}
+body{
 font-family: 'Montserrat';
 color: #424242;
 

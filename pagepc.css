@@ -72,6 +72,10 @@ div.reseau div{
     font-size: 1em;
     height: 65px;
 }
+.rose{
+    color: #d05270;
+    font-size: 2em;
+}
 div.reseau a{
     text-decoration: none;
 }
