@@ -75,6 +75,15 @@ ol{
         width: 60%;   
 }
 
+.flex3{
+    display: flex;
+    margin-left: 15%;
+    width: 70%;
+    flex-flow: row;
+    margin-bottom: 9em;
+    
+}
+
 #image5{
     height: 100px;
     position: fixed;
