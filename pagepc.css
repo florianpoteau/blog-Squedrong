@@ -18,7 +18,7 @@ header{
 }
 /**/
 .logo{
-    width: 10%;
+    width: 100%;
 }
 img.pcrose{
     width: 70%;
@@ -57,6 +57,7 @@ h1,h2,h3{
 p{
     margin-bottom: 2em;
 }
+/*partie reseau*/
 div.reseau{
     display: flex;
     margin-top: 3em;
@@ -64,6 +65,35 @@ div.reseau{
 }
 div.reseau img{
     flex:1;
+}
+div.reseau div{
+    flex: 1;
+    color: white;
+    font-size: 1.2em;
+    height: 65px;
+}
+div.reseau a{
+    text-decoration: none;
+}
+div.reseau .twitter{
+    background-color: #03a9f4;
+}
+div.reseau .linkedin{
+    background-color: #0077b5;
+}
+div.reseau .medium{
+    background-color: black;
+}
+div.reseau img{
+    width: 20%;
+    margin-left: 2em;
+    position: relative;
+    top: 7px;
+}
+div.reseau div span{
+    margin-left: 1em;
+    position: relative;
+    bottom: 7px;
 }
 footer h1{
     font-family: 'Montserrat', sans-serif;
