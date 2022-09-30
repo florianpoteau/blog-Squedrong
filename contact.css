@@ -32,4 +32,16 @@ color: #424242;
 
 }
 
+footer{
+    display: flex;
+    margin-left: 15%;
+    flex-flow: row;
+    gap: 6em;
+    width: 70%;
+    height: 300px;
+}
 
+
+form {
+    width:70% ; 
+    margin: auto;}
