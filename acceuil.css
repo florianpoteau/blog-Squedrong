@@ -83,8 +83,10 @@ div.flexbox1 {
 a{
     color: #D05270;
 }
+.titrenoir {
+    color: #424242;
+}
 /*partie reseau*/
-
 div.contReseau{
     display: flex;
     margin-left: 15%;
