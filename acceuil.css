@@ -1,14 +1,13 @@
+body{
+    font-family: 'Montserrat', sans-serif;
+    background-color: white;
+}
 header {
     display: flex;
     flex-flow: row nowrap;
      align-items: center;
     justify-content: space-around;
     font-family: 'Montserrat';
-}
-.reseau {
-display: flex;
-gap: 20px;
-width: 60%;
 }
 .image {
     display: flex;
@@ -39,6 +38,7 @@ div.contact a:hover{
 div.pc{
     width: 49%;
     box-sizing: border-box;
+    margin-bottom: 4em;
 }
 img{
     width: 100%;
@@ -47,6 +47,7 @@ img{
 h1{
     font-family: 'Abril Fatface';
     color: #D05270;
+    font-size: 3em;
 }
 p{
 font-family: 'Montserrat';
@@ -69,6 +70,7 @@ h2 {
     width: 300px;
     height: 225px;
 }
+
 /* contenu */
 div.flexbox1 {
     display: flex;
@@ -80,4 +82,58 @@ div.flexbox1 {
 }
 a{
     color: #D05270;
+}
+/*partie reseau*/
+
+div.contReseau{
+    display: flex;
+    margin-left: 15%;
+    flex-flow: row;
+    gap: 6em;
+    width: 70%;
+    height: 300px;
+    margin-top: 4em;
+    margin-bottom: 10em;
+}
+div.reseau{
+    display: flex;
+    margin-top: 3em;
+    gap: 1.5em;
+}
+div.reseau img{
+    flex:1;
+}
+div.reseau div{
+    flex: 1;
+    color: white;
+    font-size: 1em;
+    height: 65px;
+}
+div.reseau a{
+    text-decoration: none;
+}
+div.reseau .twitter{
+    background-color: #03a9f4;
+}
+div.reseau .linkedin{
+    background-color: #0077b5;
+}
+div.reseau .linkedin img{
+    top: 10px;
+}
+div.reseau .medium{
+    background-color: black;
+}
+div.reseau .medium span{
+    bottom: 1px;
+}
+div.reseau img{
+    width: 15%;
+    margin-left: 2em;
+    position: relative;
+    top: 13px;
+}
+div.reseau div span{
+    margin-left: 2em;
+    position: relative;
 }
