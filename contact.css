@@ -42,4 +42,6 @@ footer{
 }
 
 
-form {margin: auto;}
+form {
+    width:70% ; 
+    margin: auto;}
