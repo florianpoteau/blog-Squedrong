@@ -58,11 +58,13 @@ width: 10%;
 
 #italique, #italique2{
     text-align: center;
-
+    font-style: italic;
+    color: #434343;
 }
 
 ol{
     padding-bottom: 50px;
+    padding-top: 30px;
 }
 
 /*FOOTER*/
@@ -74,6 +76,13 @@ ol{
     gap: 15px;
     height: 60px;
     flex-wrap: wrap;
+}
+
+#button1{
+    background-color: skyblue;
+    width: 30%;
+    height: 40px;
+    color: white;
 }
 
 #image5{
