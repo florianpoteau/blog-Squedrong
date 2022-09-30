@@ -1,83 +1,92 @@
 <!DOCTYPE html>
 <html lang="fr">
+
 <head>
 
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="contact.css">                                    
+    <link rel="stylesheet" href="contact.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Montserrat&display=swap" rel="stylesheet">
     <title>Contact</title>
 
 </head>
+
 <body>
 
     <header>
-        <img alt="logo" src="img/logo.png" class="logo"/>
-    <div class="nav">
-        <a href="blog.html">BLOG</a>
-        <a href="cv.html">CV</a>
-        <a href="apropos.html">A PROPOS</a>
-        <a href="mailto:contact@squedrong.com">CONTACT</a>
-    </div>
-</header>
+        <img alt="logo" src="img/logo.png" class="logo" />
+        <div class="nav">
+            <a href="blog.html">BLOG</a>
+            <a href="cv.html">CV</a>
+            <a href="apropos.html">A PROPOS</a>
+            <a href="mailto:contact@squedrong.com">CONTACT</a>
+        </div>
+    </header>
 
     <div>
         <div>
-            
-            <img alt="illustration" src="img/illustration.png" class="image" height="100">
-            
-
             <div class="contactez-nous">
                 <h1>Contactez-nous</h1>
-                <p> Une question, envie de nous envoyer un message ? N’hésitez pas à utiliser ce formulaire pour prendre contact avec nous !</p>
+                <p> Une question, envie de nous envoyer un message ? N’hésitez pas à utiliser ce formulaire pour prendre
+                    contact avec nous !</p>
                 <form action="/page-traitement-donnees" method="post">
-                <div>
-                <label for="nom">Votre nom</label>
-                <input type="text" id="nom" name="nom" placeholder="Martin" required>
-                </div>
-                <div>
-                <label for="email">Votre e-mail</label>
-                <input type="email" id="email" name="email" placeholder="monadresse@mail.com" required>
-                </div>
-                <div>
-                <label for="sujet">Quel est le sujet de votre message ?</label><br>
-                <select name="sujet" id="sujet" required>
-                <option value="" disabled selected hidden>Choisissez le sujet de votre message</option>
-                <option value="probleme-compte">Problème avec mon compte</option>
-                <option value="question pour squedrong">Question pour squedron</option>
-                <option value="question de fan">Proposer un concept de vidéo</option>
-                <option value="autre">Autre...</option>
-                </select>
-                </div>
-                <div>
-                <label for="message">Votre message</label> <br>
-                <textarea id="message" name="message" placeholder="Bonjour, ...." required></textarea>
-                </div>
-                <div>
-                <button type="submit">Envoyer mon message</button>
-                </div>
+                    <div>
+                        <label for="nom">Votre nom</label>
+                        <input type="text" id="nom" name="nom" placeholder="Martin" required>
+                    </div>
+                    <div>
+                        <label for="email">Votre e-mail</label>
+                        <input type="email" id="email" name="email" placeholder="monadresse@mail.com" required>
+                    </div>
+                    <div>
+                        <label for="sujet">Quel est le sujet de votre message ?</label><br>
+                        <select name="sujet" id="sujet" required>
+                            <option value="" disabled selected hidden>Choisissez le sujet de votre message</option>
+                            <option value="probleme-compte">Problème avec mon compte</option>
+                            <option value="question pour squedrong">Question pour squedron</option>
+                            <option value="question de fan">Proposer un concept de vidéo</option>
+                            <option value="autre">Autre...</option>
+                        </select>
+                    </div>
+                    <div>
+                        <label for="message">Votre message</label> <br>
+                        <textarea id="message" name="message" placeholder="Bonjour, ...." required></textarea>
+                    </div>
+                    <div>
+                        <button type="submit">Envoyer mon message</button>
+                    </div>
                 </form>
-                </div>
+            </div>
 
         </div>
     </div>
 
-    <footer>
+    <div class="contReseau">
         <div>
-           
+            <h1>Nos réseau:</h1>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Doloribus in autem fuga expedita reiciendis aut
+                laborum, dolore dicta sit illum earum accusantium ipsum adipisci nam eaque minima laudantium rerum
+                soluta.</p>
             <div class="reseau">
-                <a href="https://twitter.com/?lang=fr"><div class="twitter"><img src="img/twitter.png" alt="twitter"><span>TWITTER</span></div></a>
-                <a href="https://www.linkedin.com/feed/"><div class="linkedin"><img src="img/linkedin.png" alt="linkedin"><span>LINKEDIN</span></div></a>
-                <a href="https://medium.com/"><div class="medium"><img src="img/medium.png" alt=""><span>MEDIUM</span> </div></a>
+                <a href="https://twitter.com/?lang=fr">
+                    <div class="twitter"><img src="img/twitter.png" alt="twitter"><span>TWITTER</span></div>
+                </a>
+                <a href="https://www.linkedin.com/feed/">
+                    <div class="linkedin"><img src="img/linkedin.png" alt="linkedin"><span>LINKEDIN</span></div>
+                </a>
+                <a href="https://medium.com/">
+                    <div class="medium"><img src="img/medium.png" alt=""><span>MEDIUM</span> </div>
+                </a>
+            </div>
+        </div>
+        <div>
+            <img alt="illustration" src="img/illustration.png" class="image">
         </div>
     </div>
-    <div>
-        <img alt="illustration" src="img/illustration.png" class="image">
-    </div>
-</footer>
- 
+
 </body>
-</html> 
+
+</html>
