@@ -97,14 +97,14 @@ div.social .medium{
 }
 div.social img{
     width: 20%;
-    margin-left: 2em;
+    margin-left: 1em;
     position: relative;
-    top: 7px;
+    top: 10px;
 }
 div.social div span{
     margin-left: 1em;
     position: relative;
-    bottom: 7px;
+    bottom: 0px;
 }
 
 #image5{
