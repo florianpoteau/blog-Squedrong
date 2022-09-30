@@ -42,7 +42,12 @@ h2, h3{
     color: #d05270;
     font-family: 'Montserrat'
 }
-
+p{
+    text-align: justify;
+}
+.left p{
+    text-align: left;
+}
 #Logo{
 width: 100%;
 }
