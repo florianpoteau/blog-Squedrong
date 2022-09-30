@@ -69,19 +69,42 @@ ol{
 
 /*FOOTER*/
 
-.social{
-        display: flex;
-        gap: 20px;
-        width: 60%;   
-}
-
-.flex3{
+div.social{
     display: flex;
-    margin-left: 15%;
-    width: 70%;
-    flex-flow: row;
-    margin-bottom: 9em;
-    
+    margin-top: 3em;
+    gap: 1.5em;
+}
+div.social img{
+    flex:1;
+}
+div.social div{
+    flex: 1;
+    color: white;
+    font-size: 1.2em;
+    height: 65px;
+}
+div.social a{
+    text-decoration: none;
+}
+div.social .twitter{
+    background-color: #03a9f4;
+}
+div.social .linkedin{
+    background-color: #0077b5;
+}
+div.social .medium{
+    background-color: black;
+}
+div.social img{
+    width: 20%;
+    margin-left: 2em;
+    position: relative;
+    top: 7px;
+}
+div.social div span{
+    margin-left: 1em;
+    position: relative;
+    bottom: 7px;
 }
 
 #image5{
