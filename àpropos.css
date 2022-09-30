@@ -48,8 +48,12 @@ width: 10%;
 }
 
 .image3, .image4{
+    width: 64%;
+    margin: auto;
+    padding-left: 18%;
+    padding-right: 18%;
+    padding-bottom: 20px;
     height: 30em;
-    width: 100%;
 }
 
 .img1{
