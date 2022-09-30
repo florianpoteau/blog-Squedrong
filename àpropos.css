@@ -70,19 +70,9 @@ ol{
 /*FOOTER*/
 
 .social{
-    justify-content: center;
-    display: flex;
-    flex-direction: row;
-    gap: 15px;
-    height: 60px;
-    flex-wrap: wrap;
-}
-
-#button1{
-    background-color: skyblue;
-    width: 30%;
-    height: 40px;
-    color: white;
+        display: flex;
+        gap: 20px;
+        width: 60%;   
 }
 
 #image5{
