@@ -1,132 +1,105 @@
-
-
-/*FLEX*/
-
+body{
+    font-family: 'Montserrat', sans-serif;
+    background-color: white;
+    font-size: 1em;
+}
 header{
     display: flex;
     flex-flow: row nowrap;
     align-items: center;
     justify-content: space-around;
-    font-family: 'Montserrat';
-    padding-left: 10%;
 }
-
-/*BODY*/
-
-div{
-    margin-left: 15%;
-    margin-right: 15%;
-    font-family: 'Montserrat', sans-serif;
-}
-
-nav a{
+div.contact a{
     color: grey;
-    text-decoration: none; 
-    margin-right: 1em;
+    text-decoration: none;
+    margin-right: 1em; 
 }
-
-nav a:hover{
+div.contact a:hover{
     color: #6655b1;
     font-weight: bold;
 }
-
-/*CORPS*/
-
+.logo{
+    width: 100%;
+}
+main{
+    text-align: justify;
+    width: 70%;
+    margin-left: 15%;
+}
 h1{
     font-family: 'Abril Fatface';
-    font-size: 30px;
-    color: #d05270;
+    color:#d05270;
+}
+h2,h3{
+    color: #3a0ca3;
+}
+ul{
+    list-style:circle;
+}
+p{
+    margin-bottom: 2em;
+}
+li{
+    margin-bottom: 0.5em;
 }
 
-h2{
-    color: #3a0ca3;
-    font-family: 'Montserrat', sans-serif;
+/*partie reseau*/
+footer{
+    display: flex;
+    margin-left: 15%;
+    flex-flow: row;
+    gap: 6em;
+    width: 70%;
+    height: 300px;
+}
+div.reseau{
+    display: flex;
+    margin-top: 3em;
+    gap: 1.5em;
+}
+div.reseau div{
+    flex: 1;
+    color: white;
+    font-size: 1em;
+    height: 65px;
+    display: flex;
+    align-items: center;
 }
 .rose{
     color: #d05270;
     font-size: 2em;
 }
-p{
-    text-align: justify;
-}
-.left p{
-    text-align: left;
-}
-#Logo{
-width: 100%;
-}
-
-.image3, .image4{
-    width: 64%;
-    margin: auto;
-    padding-left: 18%;
-    padding-right: 18%;
-    padding-bottom: 20px;
-    height: 30em;
-}
-
-.img1{
-    width: 70%;
-}
-
-#italique, #italique2{
-    text-align: center;
-    font-style: italic;
-    color: #434343;
-}
-
-div #italique, div #italique2{
-    padding-top: 40px;
-}
-
-ol{
-    padding-bottom: 50px;
-    padding-top: 30px;
-}
-
-/*FOOTER*/
-
-div.social{
-    display: flex;
-    margin-top: 3em;
-    gap: 1.5em;
-}
-div.social img{
-    flex:1;
-}
-div.social div{
-    flex: 1;
-    color: white;
-    font-size: 1.2em;
-    height: 65px;
-}
-div.social a{
+div.reseau a{
     text-decoration: none;
+    flex: 1;
 }
-div.social .twitter{
+div.reseau .twitter{
     background-color: #03a9f4;
+    padding-right: 50px;
 }
-div.social .linkedin{
+div.reseau .linkedin{
     background-color: #0077b5;
-}
-div.social .medium{
-    background-color: black;
-}
-div.social img{
-    width: 20%;
-    margin-left: 1em;
-    position: relative;
-    top: 10px;
-}
-div.social div span{
-    margin-left: 1em;
-    position: relative;
-    bottom: 0px;
+    padding-right: 50px;
 }
 
-#image5{
-    height: 100px;
-    position: fixed;
-    bottom: 0;
-    right: 0;
+div.reseau .medium{
+    background-color: black;
+    padding-right: 50px;
+}
+div.reseau .medium span{
+    bottom: 1px;
+}
+div.reseau img{
+    width: 40px;
+    margin-left: 2em;
+    margin-bottom: 0.1em;
+}
+div.reseau div span{
+    margin-left: 2em;
+}
+footer h1{
+    font-family: 'Montserrat', sans-serif;
+}
+.image{
+    width: 100%;
 }
